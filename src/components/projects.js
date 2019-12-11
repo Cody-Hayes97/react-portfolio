@@ -82,6 +82,35 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+              }}
+            >
+              Song Lyric Finder
+            </CardTitle>
+            <CardText>
+              This is a little App i built that will search through a lyric API
+              and give back data via 2 search bars, an atist search filter and a
+              song title search filter.
+            </CardText>
+            <CardActions border>
+              <a href="https://react-redux-app-git-cody-hayes.codyhayes97.now.sh">
+                <Button colored>Deployed Site</Button>
+              </a>
+
+              <a href="https://github.com/Cody-Hayes97/React-Redux-App">
+                <Button colored>Github</Button>
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
