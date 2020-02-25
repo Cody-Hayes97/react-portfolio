@@ -1,3 +1,4 @@
+const path = require('path');
 const contentful = require('contentful');
 const manifestConfig = require('./manifest-config');
 require('dotenv').config();
